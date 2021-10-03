@@ -1,11 +1,11 @@
 <template>
-    <h6>Contact</h6>
+    <h6>Wallet</h6>
 </template>
 
 <script>
 
 export default {
-  name: 'Contact',
+  name: 'Wallet',
   components: {
     
   }

@@ -4,27 +4,28 @@
         <div class="main_menu">
           <nav class="navbar navbar-expand-lg navbar-light main_box">
               <div class="container">
-                  <a class="navbar-brand logo_h" href="index.html"><h1 class="text-warning">Clothery</h1></a>
+                  <router-link class="nav-link" to="/"><h1>Clothery</h1></router-link>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
-                  </button>
-                  <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                    </button>
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                       <ul class="nav navbar-nav menu_nav ml-auto">
                           <li class="nav-item active">
                               <router-link class="nav-link" to="/">Home</router-link>
+                          </li>
+                           <li class="nav-item">
+                              <router-link class="nav-link" to="/brands">Brands</router-link>
                           </li>
                           <li class="nav-item submenu dropdown">
                               <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                 aria-expanded="false">Shop</a>
                               <ul class="dropdown-menu">
-                                <li class="nav-item"><router-link to="/products" class="nav-link">Products</router-link></li>
-                                <li class="nav-item"><router-link to="/product-detail" class="nav-link">Product Detail</router-link></li>
+                                <li class="nav-item"><router-link to="/shop-category" class="nav-link">Categories</router-link></li>
                                 <li class="nav-item"><router-link to="/checkout" class="nav-link">Checkout</router-link></li>
-                                <li class="nav-item"><a class="nav-link" href="cart.html">Shopping Cart</a></li>
-                                <li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a></li>
+                                <li class="nav-item"><router-link to="/shopping-cart" class="nav-link">Shopping Cart</router-link></li>
                               </ul>
                           </li>
                       <li class="nav-item submenu dropdown">
@@ -44,14 +45,12 @@
                           <li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
                         </ul>
                       </li>
-                      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                      <li class="nav-item">
+                          <router-link to="/contact" class="nav-link">Contact</router-link>
+                      </li>
+                      <li class="nav-item"><router-link to="/profile" class="nav-link">My Profile</router-link></li>
+                      <li class="nav-item"><router-link to="/wallet" class="nav-link">Wallet</router-link></li>
                   </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item"><router-link to="/profile" class="nav-link">My Profile</router-link></li>
-                <li class="nav-item">
-                  <button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
-                </li>
-              </ul>
             </div>
           </div>
         </nav>

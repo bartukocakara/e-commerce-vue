@@ -13,9 +13,9 @@ const routes = [
     component: () => import( '../views/About.vue')
   },
   {
-    path: '/products',
-    name: 'Products',
-    component: () => import('../views/Products.vue')
+    path: '/shop-category',
+    name: 'ShopCategory',
+    component: () => import('../views/ShopCategory.vue')
   },
   {
     path: '/product-detail',
@@ -26,6 +26,31 @@ const routes = [
     path: '/checkout',
     name: 'Checkout',
     component: () => import('../views/Checkout.vue')
+  },
+  {
+    path: '/profile',
+    name: 'Profile',
+    component: () => import('../views/Profile.vue')
+  },
+  {
+    path: '/wallet',
+    name: 'Wallet',
+    component: () => import('../views/Wallet.vue')
+  },
+  {
+    path: '/payment-confirm',
+    name: 'PaymentConfirm',
+    component: () => import('../views/PaymentConfirm.vue')
+  },
+  {
+    path: '/payment-confirm',
+    name: 'PaymentConfirm',
+    component: () => import('../views/PaymentConfirm.vue')
+  },
+  {
+    path: '/brands',
+    name: 'Brands',
+    component: () => import('../views/Brands.vue')
   },
 ]
 
