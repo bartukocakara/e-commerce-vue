@@ -1,10 +1,10 @@
 <template>
 
-  <div id="nav">
-    <Header />
-    <Banner />
-  </div>
-  <router-view/>
+    <div id="nav">
+        <Header />
+        <Banner />
+    </div>
+    <router-view/>
 </template>
 
 <script>

@@ -1,16 +1,15 @@
 <template>
       <div class="container">
-            <div class="row s_product_inner">
-                <BigImage/>
-                <Actions/>
-            </div>
-        </div>
+          <div class="row s_product_inner">
+              <BigImage/>
+              <Actions/>
+          </div>
+      </div>
     <Info/>
     <SuperSales />
 </template>
 
 <script>
-// @ is an alias to /src
 import BigImage from '@/components/product-detail/BigImage.vue'
 import Actions from '@/components/product-detail/Actions.vue'
 import Info from '@/components/product-detail/Info.vue'
