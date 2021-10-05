@@ -9,8 +9,8 @@
             </ul>
             <div class="tab-content py-3" id="myTabContent">
                 <div v-for="nav in navs" :key="nav.id" class="tab-pane  fade" :class="{ 'active show': isActive(nav.name) }" id="wear">
-                    <div class="row">
-                        <router-link class="col-md-3" v-for="(brand, index) in nav.brands" :key="index" to="brand-detail">
+                    <div class="row p-2">
+                        <router-link class="col-md-3 card-shadow" v-for="(brand, index) in nav.brands" :key="index" to="brand-detail">
                             <div class="m-1 border rounded shadow brand-card text-center">
                                 <img v-bind:src="'/img/brand/' + brand.imgSrc" class="brand-image" alt="">
                             </div>

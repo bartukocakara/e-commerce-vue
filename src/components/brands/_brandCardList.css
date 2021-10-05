@@ -1,8 +1,12 @@
 .brand-card{
     height: 150px;
 }
+.card-shadow:hover{
+    margin-top:5px !important;
+}
 .brand-image {
     width: 100px;
     height : 60px;
     margin: 3rem;
 }
+
