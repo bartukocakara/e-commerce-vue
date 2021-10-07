@@ -30,10 +30,10 @@
                         <p class="text-success text-center">Was delivered</p>
                     </div>
                     <div class="col-md-6">
-                        <img src="/img/i1.jpg" class="mx-2" style="width:50px" alt="">
-                        <img src="/img/i1.jpg" class="mx-2" style="width:50px" alt="">
-                        <img src="/img/i1.jpg" class="mx-2" style="width:50px" alt="">
-                        <img src="/img/i1.jpg" class="mx-2" style="width:50px" alt="">
+                        <img src="/img/i1.jpg" class="mx-2 rounded" style="width:50px" alt="">
+                        <img src="/img/i1.jpg" class="mx-2 rounded" style="width:50px" alt="">
+                        <img src="/img/i1.jpg" class="mx-2 rounded" style="width:50px" alt="">
+                        <img src="/img/i1.jpg" class="mx-2 rounded" style="width:50px" alt="">
                     </div>
                 </div>  
             </div>
