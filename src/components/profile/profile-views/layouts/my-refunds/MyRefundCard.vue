@@ -1,6 +1,6 @@
 <template>
     <div class="mt-4">
-        <div class="card">
+        <div class="card shadow">
             <div class="card-header">
                 <div class="row">
                     <div class="col-md-3">
@@ -27,7 +27,7 @@
             <div class="p-2">
                 <div class="row">
                     <div class="col-md-6">
-                        <p class="text-success text-center">Was delivered</p>
+                        <p class="text-success text-center">Was refunded</p>
                     </div>
                     <div class="col-md-6">
                         <img src="/img/i1.jpg" class="mx-2 rounded" style="width:50px" alt="">

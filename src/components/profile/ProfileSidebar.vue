@@ -20,13 +20,13 @@
                 <div class="tab-pane fade" id="v-pills-my-ratings" role="tabpanel" aria-labelledby="v-pills-my-ratings-tab"><MyRatings /></div>
                 <div class="tab-pane fade" id="v-pills-my-wallet" role="tabpanel" aria-labelledby="v-pills-my-wallet-tab">...</div>
                 <div class="tab-pane fade" id="v-pills-my-refunds" role="tabpanel" aria-labelledby="v-pills-my-refunds-tab"><MyRefunds /></div>
-                <div class="tab-pane fade" id="v-pills-followed-stores" role="tabpanel" aria-labelledby="v-pills-followed-stores-tab">...</div>
-                <div class="tab-pane fade" id="v-pills-followed-stores" role="tabpanel" aria-labelledby="v-pills-followed-stores-tab">...</div>
-                <div class="tab-pane fade" id="v-pills-followed-stores" role="tabpanel" aria-labelledby="v-pills-followed-stores-tab">...</div>
-                <div class="tab-pane fade" id="v-pills-followed-stores" role="tabpanel" aria-labelledby="v-pills-followed-stores-tab">...</div>
-                <div class="tab-pane fade" id="v-pills-followed-stores" role="tabpanel" aria-labelledby="v-pills-followed-stores-tab">...</div>
-                <div class="tab-pane fade" id="v-pills-followed-stores" role="tabpanel" aria-labelledby="v-pills-followed-stores-tab">...</div>
-                <div class="tab-pane fade" id="v-pills-followed-stores" role="tabpanel" aria-labelledby="v-pills-followed-stores-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-followed-stores" role="tabpanel" aria-labelledby="v-pills-followed-stores-tab"><FollowedStores /></div>
+                <div class="tab-pane fade" id="v-pills-discount-coupons" role="tabpanel" aria-labelledby="v-pills-discount-coupons-tab"><DiscountCoupons /></div>
+                <div class="tab-pane fade" id="v-pills" role="tabpanel" aria-labelledby="v-pills-tab">...</div>
+                <div class="tab-pane fade" id="v-pills" role="tabpanel" aria-labelledby="v-pills-tab">...</div>
+                <div class="tab-pane fade" id="v-pills" role="tabpanel" aria-labelledby="v-pills-tab">...</div>
+                <div class="tab-pane fade" id="v-pills" role="tabpanel" aria-labelledby="v-pills-tab">...</div>
+                <div class="tab-pane fade" id="v-pills" role="tabpanel" aria-labelledby="v-pills-tab">...</div>
             </div>
             
         <div class="col-xl-9 col-lg-8 col-md-7">
@@ -41,11 +41,13 @@
 import MyOrders from "./profile-views/MyOrders.vue";
 import MyRatings from "./profile-views/MyRatings.vue";
 import MyRefunds from "./profile-views/MyRefunds.vue";
+import FollowedStores from "./profile-views/FollowedStores.vue";
+import DiscountCoupons from "./profile-views/DiscountCoupons.vue";
 
 export default {
     name : "ProfileSidebar",
     components : {
-        MyOrders,  MyRatings, MyRefunds
+        MyOrders,  MyRatings, MyRefunds, FollowedStores, DiscountCoupons
     }
 }
 </script>

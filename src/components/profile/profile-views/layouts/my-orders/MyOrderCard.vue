@@ -1,6 +1,6 @@
 <template>
     <div class="mt-4">
-        <div class="card">
+        <div class="card shadow">
             <div class="card-header">
                 <div class="row">
                     <div class="col-md-3">
