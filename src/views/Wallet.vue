@@ -1,8 +1,8 @@
 <template>
     <div class="container">
-        <h2>Track Order</h2>
-    </div></template>
-
+        <h2>Wallet</h2>
+    </div>
+</template>
 <script>
 
 export default {

@@ -2,6 +2,7 @@
      <!--================Cart Area =================-->
     <section class="">
         <div class="container">
+            <NoProduct/>
             <ProductList />
         </div>
     </section>
@@ -12,11 +13,12 @@
 <script>
 
 import ProductList from "@/components/cart/ProductList.vue";
+import NoProduct from "@/components/cart/NoProduct.vue";
 
 export default {
   name: 'ShoppingCart',
   components: {
-      ProductList
+      ProductList, NoProduct
   }
 }
 </script>

@@ -23,7 +23,7 @@
                             <li class="nav-item submenu dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                     aria-expanded="false">Shop</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu border rounded">
                                     <li class="nav-item"><router-link to="/shop-category" class="nav-link">Categories</router-link></li>
                                     <li class="nav-item"><router-link to="/checkout" class="nav-link">Checkout</router-link></li>
                                     <li class="nav-item"><router-link to="/cart" class="nav-link">Shopping Cart</router-link></li>
@@ -36,6 +36,7 @@
                             </li>
                             <li class="nav-item"><router-link to="/profile/my-orders" class="nav-link">My Profile</router-link></li>
                             <li class="nav-item"><router-link to="/wallet" class="nav-link">Wallet</router-link></li>
+                            <li class="nav-item"><router-link to="/cart" class="nav-link"><span class="ti-shopping-cart-full"></span></router-link></li>
                         </ul>
                     </div>
                 </div>
@@ -50,3 +51,9 @@ export default {
   name: 'Header'
 }
 </script>
+
+<style scoped>
+.ti-shopping-cart-full{
+    font-size:22px;
+}
+</style>
