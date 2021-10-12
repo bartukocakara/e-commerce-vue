@@ -1,9 +1,20 @@
 <template>
-        <h1>Saved Cards</h1>
+        <Breadcrumb />
+        <div class="row">
+            <SavedCard />
+            <SavedCard />
+            <SavedCard />
+        </div>
 </template>
 
 <script>
+
+import Breadcrumb from "./layouts/saved-cards/Breadcrumb.vue"
+import SavedCard from "./layouts/saved-cards/SavedCard.vue"
 export default {
-    name : "SavedCards"
+    name : "SavedCards",
+    components : {
+        Breadcrumb, SavedCard
+    }
 }
 </script>

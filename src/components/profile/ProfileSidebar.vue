@@ -10,7 +10,7 @@
         <router-link class="text-dark border-bottom p-3" to="/profile/address-infos">Adress Infos</router-link>
         <router-link class="text-dark border-bottom p-3" to="/profile/saved-cards">Saved Cards</router-link>
         <router-link class="text-dark border-bottom p-3" to="/profile/notification-settings">Notification Settings</router-link>
-        <router-link class="text-dark border-bottom p-3" to="/profile/support">Support</router-link>
+        <router-link class="text-dark border-bottom p-3" to="/support/questions">Support</router-link>
     </div>
                
 </template>

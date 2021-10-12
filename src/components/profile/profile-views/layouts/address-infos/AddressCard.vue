@@ -1,6 +1,6 @@
 <template>
     <div class="col-md-4 my-2">
-        <div class="card border">
+        <div class="card border shadow">
             <div class="card-header">
                 <h6>Üsk İş Yeri</h6>
             </div>

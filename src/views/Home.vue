@@ -1,5 +1,4 @@
 <template>
-   <!--================Blog Categorie Area =================-->
         <Offers />
         <Discount />
         <OpenBusiness />

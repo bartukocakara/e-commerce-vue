@@ -27,6 +27,7 @@
                                     <li class="nav-item"><router-link to="/shop-category" class="nav-link">Categories</router-link></li>
                                     <li class="nav-item"><router-link to="/checkout" class="nav-link">Checkout</router-link></li>
                                     <li class="nav-item"><router-link to="/cart" class="nav-link">Shopping Cart</router-link></li>
+                                    <li class="nav-item"><router-link to="/track-order" class="nav-link">Track Order</router-link></li>
                                 </ul>
                             </li>
                      

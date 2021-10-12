@@ -79,9 +79,20 @@ const routes = [
         path: '/profile/notification-settings',
         component: () => import('../components/profile/profile-views/NotificationSettings.vue'),
       },
+      
+    ]
+  },
+  {
+    path: '/support/questions',
+    component: () => import('../views/Support.vue')
+  },
+  {
+    path: '/support',
+    component: () => import('../views/Support.vue'),
+    children : [
       {
-        path: '/profile/support',
-        component: () => import('../components/profile/profile-views/Support.vue'),
+        path: '/support/view',
+        component: () => import('../components/support/SupportView.vue'),
       },
     ]
   },
@@ -90,6 +101,11 @@ const routes = [
     path: '/wallet',
     name: 'Wallet',
     component: () => import('../views/Wallet.vue')
+  },
+  {
+    path: '/track-order',
+    name: 'TrackOrder',
+    component: () => import('../views/TrackOrder.vue')
   },
   {
     path: '/payment-confirm',

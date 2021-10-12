@@ -1,14 +1,15 @@
 <template>
     <div class="container">
         <h2>Track Order</h2>
-    </div></template>
+    </div>
+</template>
 
 <script>
-
 export default {
-  name: 'Wallet',
-  components: {
-    
-  }
+
 }
 </script>
+
+<style>
+
+</style>

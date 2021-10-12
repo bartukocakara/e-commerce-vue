@@ -22,6 +22,9 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+[class*=" ti-big"] {
+	font-size:30px
+}
 
 .ti-wand:before {
 	content: "\e600";
