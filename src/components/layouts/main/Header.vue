@@ -4,7 +4,7 @@
         <div class="main_menu">
           <nav class="navbar navbar-expand-lg navbar-light main_box">
               <div class="container row">
-                  <router-link class="nav-link col-md-3" to="/"><h1>Clothery</h1></router-link>
+                  <router-link class="nav-link  col-md-3" to="/"><img src="https://cdn.dsmcdn.com/web/logo/ty-logo.svg" width="125" alt=""></router-link>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="icon-bar"></span>
@@ -33,7 +33,7 @@
                             <li class="nav-item">
                                 <router-link to="/contact" class="nav-link">Contact</router-link>
                             </li>
-                            <li class="nav-item"><router-link to="/profile" class="nav-link">My Profile</router-link></li>
+                            <li class="nav-item"><router-link to="/profile/my-orders" class="nav-link">My Profile</router-link></li>
                             <li class="nav-item"><router-link to="/wallet" class="nav-link">Wallet</router-link></li>
                         </ul>
                     </div>

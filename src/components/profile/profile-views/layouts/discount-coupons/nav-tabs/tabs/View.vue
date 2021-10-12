@@ -1,9 +1,9 @@
 <template>
-        <h6>Support</h6>
+    <h6>View</h6>
 </template>
 
 <script>
 export default {
-    name : "Support"
+    name : "View"
 }
 </script>

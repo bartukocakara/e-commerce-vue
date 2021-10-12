@@ -1,6 +1,14 @@
 <template>
-    <ProfileSidebar />
-    <h6>View Component</h6>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <ProfileSidebar />
+            </div>
+            <div class="tab-content col-md-7">
+              <router-view  />
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>

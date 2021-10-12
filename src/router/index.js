@@ -34,9 +34,58 @@ const routes = [
   },
   {
     path: '/profile',
-    name: 'Profile',
-    component: () => import('../views/Profile.vue')
+    name: 'profile',
+    component: () => import('../views/Profile.vue'),
+    children: [
+      {
+        path: '/profile/my-orders',
+        component: () => import('../components/profile/profile-views/MyOrders.vue'),
+      },
+      {
+        path: '/profile/my-ratings',
+        component: () => import('../components/profile/profile-views/MyRatings.vue'),
+      },
+      {
+        path: '/profile/my-refunds',
+        component: () => import('../components/profile/profile-views/MyRefunds.vue'),
+      },
+      {
+        path: '/profile/followed-stores',
+        component: () => import('../components/profile/profile-views/FollowedStores.vue'),
+      },
+      {
+        path: '/profile/discount-coupons/view',
+        component: () => import('../components/profile/profile-views/DiscountCoupons.vue'),
+        children: [
+          {
+            path: '/profile/discount-coupons/view',
+            component: () => import('../components/profile/profile-views/layouts/discount-coupons/nav-tabs/tabs/View.vue'),
+          },
+        ]
+      },
+      {
+        path: '/profile/user-info',
+        component: () => import('../components/profile/profile-views/UserInfo.vue'),
+      },
+      {
+        path: '/profile/address-infos',
+        component: () => import('../components/profile/profile-views/AddressInfos.vue'),
+      },
+      {
+        path: '/profile/saved-cards',
+        component: () => import('../components/profile/profile-views/SavedCards.vue'),
+      },
+      {
+        path: '/profile/notification-settings',
+        component: () => import('../components/profile/profile-views/NotificationSettings.vue'),
+      },
+      {
+        path: '/profile/support',
+        component: () => import('../components/profile/profile-views/Support.vue'),
+      },
+    ]
   },
+  
   {
     path: '/wallet',
     name: 'Wallet',

@@ -1,5 +1,5 @@
 <template>
-    
+        <h6>Notification Settings</h6>
 </template>
 
 <script>

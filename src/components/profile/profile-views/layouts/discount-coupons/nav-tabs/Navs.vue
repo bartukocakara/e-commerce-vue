@@ -1,13 +1,10 @@
 <template>
     <ul class="nav nav-tabs" id="myTab" role="tablist">
 		<li class="nav-item">
-			<a class="nav-link show active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Description</a>
+        <router-link class="text-dark border-bottom p-3 active" to="/profile/discount-coupons/view" >All</router-link>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
-            aria-selected="false">
-                Specification
-            </a>
+		<router-link class="text-dark border-bottom p-3" to="/profile/discount-coupons/view" >Follower Coupons</router-link>
 		</li>
 	</ul>
 </template>
