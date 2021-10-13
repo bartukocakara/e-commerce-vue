@@ -30,7 +30,29 @@ const routes = [
   {
     path: '/checkout',
     name: 'Checkout',
-    component: () => import('../views/Checkout.vue')
+    component: () => import('../views/Checkout.vue'),
+    children: [
+      {
+        path: '/checkout/billing-details',
+        component: () => import('../components/checkout/BillingDetails.vue'),
+      },
+      {
+        path: '/checkout/shipping-details',
+        component: () => import('../components/checkout/ShippingDetails.vue'),
+      },
+      {
+        path: '/checkout/your-orders',
+        component: () => import('../components/checkout/CustomerOrder.vue'),
+      },
+      {
+        path: '/checkout/apply-coupon',
+        component: () => import('../components/checkout/ApplyCoupon.vue'),
+      },
+      {
+        path: '/checkout/payment',
+        component: () => import('../components/checkout/Payment.vue'),
+      },
+    ]
   },
   {
     path: '/profile',
@@ -122,7 +144,11 @@ const routes = [
     name: 'Brands',
     component: () => import('../views/Brands.vue')
   },
-
+  {
+    path: '/brand-detail',
+    name: 'BrandDetail',
+    component: () => import('../views/BrandDetail.vue')
+  },
   {
     path: '/contact',
     name: 'Contact',

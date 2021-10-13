@@ -58,24 +58,13 @@
 /* Start Gradient Area css
 ============================================================================================ */
 .gradient-bg, .primary-btn, .add-bag .add-btn, .single-product .product-details .prd-bottom .social-info span:after, .grid-btn:hover, .list-btn:hover, .grid-btn.active, .list-btn.active, .pagination a.active, .pagination a:hover, .s_Product_carousel .owl-dots div.active, .s_product_text .card_area .icon_btn:after, .product_description_area .nav.nav-tabs li a.active, .blog-pagination .page-item.active .page-link, .single-footer-widget .click-btn {
-  background: -webkit-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
-  background: -moz-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
-  background: -o-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
-  background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%); }
+  background: #f27a1a }
 
 .gradient-bg-reverse, #search_input_box {
-  background: -webkit-linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
-  background: -moz-linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
-  background: -o-linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
-  background: linear-gradient(270deg, #ffba00 0%, #ff6c00 100%); }
+  background: #f27a1a; }
 
 .gradient-color, .s_product_text h2, .s_product_text .list li a.active, .product_description_area .tab-content .total_rate .box_total h4, .single-footer-widget .bb-btn {
-  background: -webkit-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
-  background: -moz-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
-  background: -o-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
-  background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  background: #f27a1a }
 
 /* Start primary btn css
 ============================================================================================ */
@@ -89,11 +78,7 @@
   display: inline-block;
   text-transform: uppercase;
   font-weight: 500;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; }
+  cursor: pointer; }
   .primary-btn:before {
     position: absolute;
     left: -145px;
@@ -102,16 +87,7 @@
     width: 100%;
     content: "";
     background: #000;
-    opacity: 0;
-    -webkit-transform: skew(40deg);
-    -moz-transform: skew(40deg);
-    -ms-transform: skew(40deg);
-    -o-transform: skew(40deg);
-    transform: skew(40deg);
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s; }
+    opacity: 0;}
   .primary-btn:hover {
     color: #fff; }
     .primary-btn:hover:before {
@@ -4036,12 +4012,17 @@ label {
         padding: 0px 30px;
         color: #222222;
         font-size: 13px;
-        font-weight: normal; }
+        font-weight: normal; 
+        border-radius: 10px;
+      }
         @media (max-width: 570px) {
           .product_description_area .nav.nav-tabs li a {
-            padding: 0 15px; } }
-        .product_description_area .nav.nav-tabs li a.active {
+            padding: 0 15px; 
+          } 
+        }
+        .product_description_area .nav.nav-tabs li a.router-link-active.router-link-exact-active {
           color: #fff;
+          background:  #f27a1a;
           border: 1px solid transparent; }
   .product_description_area .tab-content {
     border-left: 1px solid #eee;
@@ -5625,11 +5606,12 @@ label {
     .contact_form .form-group textarea.form-control {
       height: 134px; }
 .contact_form .primary-btn {
-  background: #ffba00;
+  margin: 10px;
+  background: #f27a1a;
   color: #fff;
   margin-top: 20px;
   border: none;
-  border-radius: 0; }
+  border-radius: 10px; }
 
 /* Contact Success and error Area css
 ============================================================================================ */
