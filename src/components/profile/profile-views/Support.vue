@@ -1,9 +1,0 @@
-<template>
-        <h6>Support</h6>
-</template>
-
-<script>
-export default {
-    name : "Support"
-}
-</script>

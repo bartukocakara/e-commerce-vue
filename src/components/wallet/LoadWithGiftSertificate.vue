@@ -1,9 +1,10 @@
 <template>
-    <div class="col-md-12 row border-top py-2">
+    <div class="col-md-12 row py-3">
         <div class="col-md-6">
             <div class=" d-flex justify-space-between">
 				<input type="radio" class="mt-1 mx-3">
-                <h5 class="d-block">Load with Card</h5>
+                <h5 class="d-block">Load with Gift</h5>
+                <span class="ti-gift ml-2 gift"></span>
 			</div>
             <input type="text" class="form-control ml-5 mt-2 w-50" placeholder="Enter your gift card... ">
         </div>
@@ -20,5 +21,8 @@ export default {
 </script>
 
 <style>
-
+    .gift{
+        font-size:17px;
+        color: #f27a1a;
+    }
 </style>

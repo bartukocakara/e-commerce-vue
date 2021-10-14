@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid mx-5">
+    <div class="container-fluid mx-5 my-5">
         <div class="row mx-5">
             <div class="col-md-3">
                 <ProfileSidebar />

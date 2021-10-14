@@ -64,8 +64,16 @@ const routes = [
         component: () => import('../components/profile/profile-views/MyOrders.vue'),
       },
       {
+        path: '/profile/order-details',
+        component: () => import('../components/profile/profile-views/layouts/my-orders/order-detail/Index.vue'),
+      },
+      {
         path: '/profile/my-ratings',
         component: () => import('../components/profile/profile-views/MyRatings.vue'),
+      },
+      {
+        path: '/profile/rating-details',
+        component: () => import('../components/profile/profile-views/layouts/my-ratings/rating-detail/Index.vue'),
       },
       {
         path: '/profile/my-refunds',

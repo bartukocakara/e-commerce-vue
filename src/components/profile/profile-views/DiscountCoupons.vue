@@ -1,13 +1,13 @@
 <template>
     <Search />
-    <section class="product_description_area">
-		<div class="container">
+    <div class="row border rounded mt-3">
+		<div class="container p-3">
             <Navs />
-            <div class="tab-content">
+            <div class="p-4">
                 <router-view/>
             </div>
         </div>
-  </section>
+  </div>
 </template>
 
 <script>
