@@ -9,16 +9,9 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-9">
+				<div class="col-lg-12">
 					<div class="row">
 						<SuperSalesCards />
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="ctg-right">
-						<a href="#" target="_blank">
-							<img class="img-fluid d-block mx-auto" src="img/category/c5.jpg" alt="">
-						</a>
 					</div>
 				</div>
 			</div>

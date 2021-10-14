@@ -1,6 +1,6 @@
 <template>
-    <div class="container">
-        <h4 class="mb-20 text-center">Brands</h4>
+    <div class="container mt-5">
+        <h3 class="mb-3">Categories</h3>
         <ul class="nav nav-pills mb-3">
             <li v-for="nav in navs" :key="nav.id" class="nav-item m-1">
                 <a class="nav-link" @click.prevent="setActive(nav.name)" :class="{ active: isActive(nav.name) }" href="#wear">{{ nav.label }}</a>
@@ -8,13 +8,26 @@
         </ul>
         <div class="tab-content py-3" id="myTabContent">
             <div v-for="nav in navs" :key="nav.id" class="tab-pane  fade" :class="{ 'active show': isActive(nav.name) }" id="wear">
-                <div class="row p-2">
-                    <router-link class="col-md-3 card-shadow" v-for="(brand, index) in nav.brands" :key="index" to="brand-detail">
-                        <div class="m-1 border rounded shadow brand-card text-center">
-                            <img v-bind:src="'/img/brand/' + brand.imgSrc" class="brand-image" alt="">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-6 mb-20" v-for="(brand, index) in nav.brands" :key="index" >
+                                    <div class="single-related-product d-flex">
+                                        <router-link to="product-detail">
+                                            <img v-bind:src="'/img/' + brand.imgSrc" alt="">
+                                            <div class="desc">
+                                                <a href="#" class="title">{{ brand.name }}</a>
+                                                <div class="price">
+                                                    <h6>$189.00</h6>
+                                                    <h6 class="l-through">$210.00</h6>
+                                                </div>
+                                            </div>
+                                        </router-link>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </router-link>
-                </div>
+                    </div>
             </div>
         </div>
     </div>
@@ -38,15 +51,15 @@ export default {
                     brands : [
                         {
                             name : "Zara",
-                            imgSrc : "zara.jpeg"
+                            imgSrc : "ob1.jpg"
                         },
                         {
                             name : "Nike",
-                            imgSrc : "nike.jpg"
+                            imgSrc : "ob2.jpg"
                         },
                         {
                             name : "Polo",
-                            imgSrc : "lcwaikiki.jpg"
+                            imgSrc : "ob3.jpg"
                         }
                     ]
                 },
@@ -57,11 +70,11 @@ export default {
                     brands : [
                         {
                             name : "Nike",
-                            imgSrc : "nike.jpg"
+                            imgSrc : "ob1.jpg"
                         },
                         {
                             name : "Adidas",
-                            imgSrc : "adidas.jpg"
+                            imgSrc : "ob2.jpg"
                         }
                     ]
                 },
@@ -72,15 +85,23 @@ export default {
                     brands : [
                         {
                             name : "Apple",
-                            imgSrc : "apple.jpg"
+                            imgSrc : "i1.jpg"
                         },
                         {
                             name : "LG",
-                            imgSrc : "LG-logo.jpg"
+                            imgSrc : "i2.jpg"
                         },
                         {
                             name : "Arçelik",
-                            imgSrc : "arcelik_logo.png"
+                            imgSrc : "i3.jpg"
+                        },
+                        {
+                            name : "Arçelik",
+                            imgSrc : "i5.jpg"
+                        },
+                        {
+                            name : "Arçelik",
+                            imgSrc : "i6.jpg"
                         }
                     ]
                 },
@@ -91,15 +112,15 @@ export default {
                     brands : [
                         {
                             name : "Zara",
-                            imgSrc : "ferrari.jpg"
+                            imgSrc : "l1.jpg"
                         },
                         {
                             name : "Nike",
-                            imgSrc : "porsche-logo.jpg"
+                            imgSrc : "l2.jpg"
                         },
                         {
                             name : "Polo",
-                            imgSrc : "mercedes.jpg"
+                            imgSrc : "l3.jpg"
                         }
                     ]
                 },
@@ -129,6 +150,4 @@ export default {
     height : 60px;
     margin: 3rem;
 }
-
-
 </style>

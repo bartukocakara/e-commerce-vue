@@ -1,6 +1,6 @@
 <template>
-      <div class="container">
-          <div class="row s_product_inner">
+      <div class="container py-5">
+          <div class="row">
               <BigImage/>
               <Actions/>
           </div>
@@ -22,3 +22,14 @@ export default {
   }
 }
 </script>
+
+<style>
+.s_product_text{
+  border-radius: 10px;
+}
+.s_product_text >  h2{
+  color: #fff !important;
+  border-radius: 10px;
+  margin: auto;
+}
+</style>

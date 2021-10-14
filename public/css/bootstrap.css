@@ -176,14 +176,14 @@ sup {
 }
 
 a {
-    color: #007bff;
+    color: #f27a1a;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
 
 a:hover {
-    color: #0056b3;
+    color: #f38d39;
     text-decoration: underline
 }
 
@@ -2464,14 +2464,11 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff
+    background-color: #f27a1a;
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc
+    background-color: #f38d39;
 }
 
 .btn-primary.focus,
@@ -3183,6 +3180,7 @@ input[type=submit].btn-block {
 }
 
 .dropdown-menu {
+    border-radius: 10px 10px 0 0;
     position: absolute;
     top: 100%;
     left: 0;
@@ -3203,6 +3201,7 @@ input[type=submit].btn-block {
 }
 
 .dropdown-menu-right {
+    border-radius: 10px 10px 0 0;
     right: 0;
     left: auto
 }
@@ -4139,13 +4138,14 @@ input[type=submit].btn-block {
 }
 
 .nav-pills .nav-link {
+    color:#f27a1a;
     border-radius: .25rem
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #007bff
+    background-color: #f27a1a
 }
 
 .nav-fill .nav-item {
@@ -6339,7 +6339,8 @@ button.close {
 }
 
 .bg-primary {
-    background-color: #007bff !important
+    background-color: #f27a1a !important;
+    color: #fff
 }
 
 a.bg-primary:focus,

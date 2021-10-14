@@ -20,8 +20,8 @@
         </td>
         <td>
             <div class="checkout_btn_inner d-flex align-items-center">
-                <a class="gray_btn" href="#">Continue Shopping</a>
-                <a class="primary-btn" href="#">Proceed to checkout</a>
+                <router-link class="gray_btn" to="/">Continue Shopping</router-link> 
+                <router-link class="primary-btn" to="/checkout/billing-details">Proceed to checkout</router-link>
             </div>
         </td>
     </tr>

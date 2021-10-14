@@ -1,7 +1,7 @@
 <template>
-    <div class="container">
-        <section class="tracking_box_area section_gap">
-            <div class="container">
+    <div class="container ">
+        <section class="tracking_box_area section_gap ">
+            <div class="container ">
                 <div class="tracking_box_inner">
                     <p>To track your order please enter your Order ID in the box below and press the "Track" button. This
                         was given to you on your receipt and in the confirmation email you should have received.</p>
@@ -28,6 +28,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.tracking_box_inner{
+    padding-top: 25px !important;
+}
 </style>

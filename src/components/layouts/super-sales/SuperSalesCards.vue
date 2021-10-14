@@ -1,5 +1,5 @@
 <template>
-    <div v-for="item in items" :key="item.id" class="col-lg-4 col-md-4 col-sm-6 mb-20">
+    <div v-for="item in items" :key="item.id" class="col-lg-3 col-md-4 col-sm-6 mb-20">
 		<div class="single-related-product d-flex">
 			<a href="#">
                 <img v-bind:src="'img/'+item.image" alt="">

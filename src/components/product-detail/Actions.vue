@@ -1,21 +1,21 @@
 <template>
     <div class="col-lg-5 offset-lg-1">
-					<div class="s_product_text">
-						<h3>Faded SkyBlu Denim Jeans</h3>
+					<div class="">
+						<h3 class="s_product_">Faded SkyBlu Denim Jeans</h3>
 						<h2>$149.99</h2>
 						<ul class="list">
-                <li>
-                    <a class="active" href="#">
+                <li class="mt-3">
+                    <a class="" href="#">
                       <span>Category</span>
                        : Household
                       </a>
                 </li>
-                <li>
+                <li class="mt-3">
                     <a href="#">
                       <span>Availibility</span> : In Stock</a>
                 </li>
 						</ul>
-						<p>Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for
+						<p class="mt-3">Mill Oil is an innovative oil filled radiator with the most modern technology. If you are looking for
 							something that can make your interior look awesome, and at the same time give you the pleasant warm feeling
 							during the winter.
             </p>

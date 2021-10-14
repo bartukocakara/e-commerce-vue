@@ -1,8 +1,9 @@
 <template>
     <div class="container">
+
         <Header />
         <Slider />
-        <h1>Brand Category Products</h1>
+        <CategoryNavs />
     </div>
 </template>
 
@@ -10,11 +11,12 @@
 
 import Header from "@/components/brand-detail/Header.vue"
 import Slider from "@/components/brand-detail/Slider.vue"
+import CategoryNavs from "@/components/brand-detail/CategoryNavs.vue"
 
 export default {
     name : "BrandDetail",
     components : {
-        Header, Slider
+        Header, Slider, CategoryNavs
     }
 }
 </script>
