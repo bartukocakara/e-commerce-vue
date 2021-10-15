@@ -1,5 +1,5 @@
 <template>
-    <div class="col-md-12 row py-3">
+    <div class="row border py-4">
         <div class="col-md-6">
             <div class=" d-flex justify-space-between">
 				<input type="radio" class="mt-1 mx-3">

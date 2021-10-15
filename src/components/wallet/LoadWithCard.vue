@@ -35,6 +35,7 @@ export default {
 </script>
 
 <style scoped>
+
 .wallet-win {
     height:70px;
     background-image: url('https://cdn.dsmcdn.com/web/production/wallet-promo-img.svg');

@@ -20,7 +20,7 @@
                         <p for="">50,90 TL</p>
                     </div>
                     <div class="col-md-2">
-                        <router-link to="/profile/order-details" class="genric-btn primary circle">Detail</router-link>
+                        <router-link to="order-details" class="genric-btn primary circle">Detail</router-link>
                     </div>
                 </div>
             </div>

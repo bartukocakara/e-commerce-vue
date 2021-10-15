@@ -10,7 +10,7 @@
                     <p class=" ">With supporting text below</p>
                     <p class=" ">With supporting text below</p>
                     <p class=" ">With supporting text below</p>
-                    <router-link to="/profile/rating-details" class="genric-btn primary circle"> Go somewhere</router-link>
+                    <router-link to="rating-details" class="genric-btn primary circle"> Go somewhere</router-link>
 
                 </div>
             </div>

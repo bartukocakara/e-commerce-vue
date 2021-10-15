@@ -2,11 +2,12 @@
     <div class="container">
         <!-- Header -->
         <Header />
-        <div class="row border mt-3 rounded">
+        <div class="row border mt-3 rounded-top">
             <LoadWithCard />
             <SelectCard />
-            <LoadWithGiftSertificate />
         </div>
+                    <LoadWithGiftSertificate />
+
         <div class="row w-25 py-5 m-auto">
         <a href="/checkout/billing-details" class="primary-btn proceed m-auto">Load Balance</a>
         </div>

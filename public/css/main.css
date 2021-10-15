@@ -11,6 +11,9 @@
 *:focus {
   outline: none;
 }
+.text-color-orange{
+  color: #f27a1a
+}
 .sidebar-categories a.router-link-active.router-link-exact-active{
   font-weight: bold;
 } 

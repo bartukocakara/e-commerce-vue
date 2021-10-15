@@ -80,6 +80,10 @@ const routes = [
         component: () => import('../components/profile/profile-views/MyRefunds.vue'),
       },
       {
+        path: '/profile/refund-details',
+        component: () => import('../components/profile/profile-views/layouts/my-refunds/refund-detail/Index.vue'),
+      },
+      {
         path: '/profile/followed-stores',
         component: () => import('../components/profile/profile-views/FollowedStores.vue'),
       },

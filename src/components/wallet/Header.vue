@@ -4,10 +4,10 @@
             <h4 class="">Trendyol Wallet</h4>
         </div>
         <div class="col-md-5 d-flex">
-            <h4 class="mt-3 mr-4">Icon</h4>
+            <span class="ti-wallet wallet"></span>
             <div>
                 <label for="">Balance</label>
-                <h4>8, 24 TL</h4>
+                <h4 class="text-color-orange">8, 24 TL</h4>
             </div>
         </div>
         <div class="col-md-3 d-flex">
@@ -36,6 +36,10 @@ export default {
 }
 .help{
     font-weight: bold;
+}
+.wallet{
+    font-size:30px;
+    margin: 10px
 }
 .statement:hover{
     cursor: pointer;

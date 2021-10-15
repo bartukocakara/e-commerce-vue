@@ -20,7 +20,7 @@
                         <p for="">50,90 TL</p>
                     </div>
                     <div class="col-md-2">
-                        <button class="genric-btn primary circle">Detail</button>
+                        <router-link to="refund-details" class="genric-btn primary circle">Detail</router-link>
                     </div>
                 </div>
             </div>
