@@ -33,7 +33,13 @@
                             <li class="nav-item">
                                 <router-link to="/contact" class="nav-link">Contact</router-link>
                             </li>
-                            <li class="nav-item"><router-link to="/profile/my-orders" class="nav-link">My Profile</router-link></li>
+                            <li class="nav-item submenu dropdown">
+                                <router-link to="/profile/my-orders" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                                    aria-expanded="false">My Profile</router-link>
+                                <ul class="dropdown-menu border">
+                                    <li class="nav-item"><router-link to="/logout" class="nav-link" @click="logout">Logout</router-link></li>
+                                </ul>
+                            </li>
                             <li class="nav-item"><router-link to="/wallet" class="nav-link">Wallet</router-link></li>
                             <li class="nav-item"><router-link to="/cart" class="nav-link"><span class="ti-shopping-cart-full"></span></router-link></li>
                         </ul>
@@ -47,7 +53,12 @@
 <script>
 
 export default {
-  name: 'Header'
+  name: 'Header',
+  methods : {
+      logout() {
+          console.log("logging out");
+      }
+  }
 }
 </script>
 

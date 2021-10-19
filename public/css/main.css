@@ -4758,7 +4758,7 @@ label {
       margin: 0px auto 25px;
       color: #fff; }
     .login_box_area .login_box_img .hover .primary-btn {
-      border-radius: 0px;
+      border-radius: 10px;
       line-height: 38px;
       text-transform: uppercase; }
       .login_box_area .login_box_img .hover .primary-btn:hover:before {
@@ -4798,7 +4798,7 @@ label {
     margin-right: 10px; }
 .login_form .form-group .primary-btn {
   display: block;
-  border-radius: 0px;
+  border-radius: 10px;
   line-height: 38px;
   width: 100%;
   text-transform: uppercase;
